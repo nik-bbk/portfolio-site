@@ -86,6 +86,8 @@ a{
 
 .linkable:hover{
     transform: scale(1.05);
+    border-style: solid;
+    border-color: white;
 }
 
 

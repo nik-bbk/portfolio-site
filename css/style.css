@@ -59,11 +59,11 @@ a{
 }
 .welcome-message{
     position: relative;
-    top: 10rem;
+    top: 11rem;
     left: 30%;
 
     display:flex;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column;
     width: fit-content;
     
@@ -72,10 +72,6 @@ a{
 }
 .welcome-message p{
     padding-bottom: 3px;
-}
-#webbed-site{
-    margin-top: 3rem;
-    align-self: flex-end;
 }
 
 aside li a {
@@ -177,12 +173,12 @@ aside li a:visited {
     margin-top:-10px;
     margin-left: 1.5rem;
 }
-.advice{
+.webbed-site{
     writing-mode: vertical-rl;
     color: rgb(31, 255, 31);
     position:fixed;
     right: 3.3%;
-    margin-top:1rem;
+    margin-top: -6rem;
 }
 
 footer {
