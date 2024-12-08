@@ -80,15 +80,23 @@ a{
     text-align: right;
 }
 
-#wippy{
-    border-radius: 20px;
+
+.linkable:hover {
+    transform: scale(1.05);
+}
+.linkable a:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 100%;
+    background-color:white;
+    opacity: .2;
 }
 
-.linkable:hover{
-    transform: scale(1.05);
-    border-style: solid;
-    border-color: white;
-}
+
+
 
 
 article img{
