@@ -27,8 +27,52 @@
         <h1>portfolio</h1>   
     </header>
 
+    <div class="splash-text">
+        <img src="./img/portfolioSplashText.png"/>
+    </div>
+
     <div class="main-content">
         <div class="left-pieces">
+            
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">
+                <article class="piece linkable">
+                    <img src="./img/portfolio-pieces/why-regen/regenNYCPoster.jpg" />
+                    <p>Why Regenerative Graphics, Assorted</p>
+                </article>
+            </button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-pieces">
+                        <!-- left col -->
+                        <div class="modal-col">
+                            <img src="./img/portfolio-pieces/why-regen/regenNYCPoster.jpg"/>
+                            <img src="./img/portfolio-pieces/why-regen/speaker3a.jpg"/>
+                            <img src="./img/portfolio-pieces/why-regen/speaker3b.jpg"/>
+                        </div>
+                        <!-- middle col -->
+                        <div class="modal-col">
+                            <img src="./img/portfolio-pieces/why-regen/treeRangeSourceSheet.jpg"/>
+                            <img src="./img/portfolio-pieces/why-regen/speaker1a.jpg"/>
+                            <img src="./img/portfolio-pieces/why-regen/speaker1b.jpg"/>
+                        </div>
+                        <!-- right col -->
+                        <div class="modal-col">
+                            <img src="./img/portfolio-pieces/why-regen/menu.jpg"/>
+                            <img src="./img/portfolio-pieces/why-regen/speaker2a.jpg"/>
+                            <img src="./img/portfolio-pieces/why-regen/speaker2b.jpg"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
             <article class="piece linkable">
                 <a href="https://apps.apple.com/us/app/wippy/id6475024600" target="_blank"><img src="./img/Wippy.png" /></a>
                 <p>"WIPPY", iOS App</p>
@@ -36,10 +80,6 @@
             <article class="piece">
                 <img src="./img/portfolio-pieces/bigYakultAd.jpg" />
                 <p>"Big Yakult" Concept Ad, Blender</p>
-            </article>
-            <article class="piece">
-                <img src="./img/portfolio-pieces/MagazineCover.jpg" />
-                <p>Mock Magazine Cover, Illustrator</p>
             </article>
             <article class="piece">
                 <img src="./img/portfolio-pieces/jasonSeniorSwim.jpg" />
@@ -64,13 +104,6 @@
                     <img src="./img/portfolio-pieces/evaRender.jpg" />
                 </a>
                 <p>Sci-Fi Exploration Animation, Blender</p>
-            </article>
-            <article class="big-piece">
-                <div class="multipiece">
-                    <img src="./img/portfolio-pieces/friendsAndCats.jpg" />
-                    <img src="./img/castleintheskyProfile.jpg" />
-                </div>
-                <p>Personal Projects, Photoshop</p>
             </article>
         </div>
 
@@ -98,6 +131,7 @@
         </div>
     </aside>
 
-    
+    <script type="text/javascript" src="./js/main.js"></script>
+
 </body>
 </html>
